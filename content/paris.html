@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>FATEC SÃO CAETANO DO SUL - PROGRAMAÇÃO EM SCRIPT</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+    <link rel="stylesheet" type="text/css" href="../styles/jquery.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho__titulo"><a name="inicio">DESTINO PARA VIAGENS</a></h1>
+
+        <div class="cabecalho__menu">
+            <a class="cabecalho__menu__link fadeout-link" href="../index.html">Página Inicial</a>
+            <a class=cabecalho__menu__link href="#sobre">Sobre</a>
+            <a class=cabecalho__menu__link href="#hoteis">Hotéis</a>
+            <a class=cabecalho__menu__link href="#quando">Quando ir</a>
+            <a class=cabecalho__menu__link href="#fotos">Fotos</a>
+            <a class=cabecalho__menu__link href="contato.html">Contato</a>
+        </div>
+    </header>
+
+    <main class="apresentacao">
+        <div class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">PARIS - FRANÇA</h1>
+            <p class="apresentacao__conteudo__texto">É impossível não se render aos encantos de Paris, a bela capital
+                francesa e destino turístico frequentado por milhões de pessoas todos os anos. Vibrante, charmosa,
+                romântica, divertida, além de berço da cultura e da arte, a Cidade Luz, como é chamada, possui uma
+                infindável lista de qualidades.</p>
+            <p class="apresentacao__conteudo__texto">Uma vez lá, você perceberá que alguns clichês realmente fazem
+                sentido. A cidade é um grande centro, repleto de opções para pessoas de todas as idades e mais diversos
+                gostos, com paisagens de tirar o fôlego, cartões-postais mundialmente conhecidos e muito mais.</p>
+
+            <figure class="apresentacao__conteudo__imagem">
+                <img class="apresentacao__conteudo__imagem__foto" src="../assets/paris01.jpg"
+                    alt="Foto da Torre Eiffel">
+                <figcaption class="apresentacao__conteudo__imagem__legenda">Torre Eiffel</figcaption>
+            </figure>
+
+            <h2 class="apresentacao__conteudo__subtitulo"><a name="sobre">Sobre Paris</a></h2>
+            <p class="apresentacao__conteudo__texto">Paris está dividida em 20 bairros numerados, os chamados
+                arrondissements. Quanto mais baixo o número, mais centralizado é o ponto de interesse. Para se ter uma
+                ideia, o primeiro arrondissement engloba a área do museu do Louvre e o entorno da Catedral de Notre
+                Dame.</p>
+            <p class="apresentacao__conteudo__texto">O famoso rio Sena, sempre repleto de barcos turísticos em toda a
+                sua extensão, também corta a cidade em duas partes: a margem direita (Rive Droite) — considerada a mais
+                sofisticada, por sinal — e a margem esquerda (Rive Gauche).</p>
+            <p class="apresentacao__conteudo__texto">E embora ofereça um dos metrôs mais eficientes do mundo, Paris é
+                uma cidade que incentiva a caminhada. Experimente ir a pé do Arco do Triunfo à praça da Concórdia e
+                passe pela avenida Champs-Élysées, o belo Jardin des Tuileries e a Ponte Alexandre.</p>
+
+            <h2 class="apresentacao__conteudo__subtitulo">Bairros parisienses</h2>
+            <p class="apresentacao__conteudo__texto">Nada melhor do que percorrer a pé as charmosas ruazinhas de
+                bairros, como Le Marais (patrimônio histórico da Unesco), Montparnasse e Montmartre. Pelo caminho, você
+                vai encontrar lojinhas que vendem de tudo um pouco, as famosas boulangeries (padarias), com seus
+                croissants fresquinhos e doces maravilhosos, além de cafés e bistrôs que servem várias delícias da
+                culinária francesa.</p>
+            <p class="apresentacao__conteudo__texto">O idioma oficial do país é o francês, mas o inglês é uma língua
+                bastante difundida, principalmente nas áreas turísticas. E apesar da fama de mal-humorado e grosseiro, o
+                povo francês pode surpreender positivamente o visitante com a sua hospitalidade. A dica é ir
+                completamente "desarmado" em relação a certos clichês e curtir a estadia nessa deliciosa cidade, para
+                onde, provavelmente, você desejará voltar mais vezes!</p>
+
+            <h2 class="apresentacao__conteudo__subtitulo"><a name="hoteis">Hotéis em Paris</a></h2>
+            <p class="apresentacao__conteudo__texto">Escolher onde se hospedar em Paris não é tarefa fácil. A cidade tem
+                grande oferta de hotéis, mas os preços não são amigáveis. É importante pesquisar bem para não pagar caro
+                demais ou ficar em uma região que não seja legal para a sua viagem. Paris tem atrações turísticas em
+                diversos bairros e há várias regiões que são boas pedidas para hospedagem. Ainda assim, é possível cair
+                em algumas roubadas ao escolher o hotel em Paris. Confira nossas dicas para escolher a opção de hotel e
+                região que melhor se encaixa no seu perfil.</p>
+            <p class="apresentacao__conteudo__texto">Se você está perdido e não sabe por onde começar a busca pelo hotel
+                em Paris, confira essa listinha com a nossa seleção de dez hotéis que valem a pena em Paris. São hotéis
+                bem localizados, com custo médio e avaliações confiáveis. É uma boa lista para começar a busca, já que
+                Paris oferece uma variedade enorme de hotéis e você certamente encontrará outras boas opções enquanto
+                confere a nossa listinha.</p>
+            <h2 class="apresentacao__conteudo__subtitulo">Melhores regiões para hospedagem em Paris</h2>
+            <p class="apresentacao__conteudo__texto">Escolher a melhor região para hospedagem em Paris nem sempre é
+                fácil. É preciso considerar a melhor relação custo x benefício entre localização e preço, o que não é
+                tão simples quanto parece. Para te ajudar na escolha, elegemos as melhores regiões de Paris para se
+                hospedar. Mas antes de conferir todas elas, é importante entender um pouco mais sobre como funciona a
+                cidade.</p>
+            <p class="apresentacao__conteudo__texto">Paris é subdividida em 20 bairros, que ganham o nome de
+                arrondissements, ou ème. Cada arrondissements é classificado por um número, sendo que o 1º
+                arrondissement é o mais central e o 20º o mais distante. Os números crescem em sequência e acompanham a
+                forma de um caracol a partir do Louvre, localizado no 1º arrondissement. A Torre Eiffel, por exemplo,
+                está localizada no 7º arrondissement.</p>
+            <p class="apresentacao__conteudo__texto">Outro detalhe importante para entender Paris é saber que, além dos
+                arrondissements, algumas regiões ganham nomes não oficiais, que algumas vezes incluem mais de um
+                arrondissement. É o caso, por exemplo, do Marais, região com ótima localização que inclui o 3º e 4º
+                arrondissements; ou ainda o Quartier Latin, que inclui o 5º arrondissement.</p>
+            <p class="apresentacao__conteudo__texto">Para quem está na dúvida sobre qual o arrondissement do hotel ou de
+                uma atração, a dica é olhar os últimos dígitos do CEP do lugar. Um CEP 75001, por exemplo, está
+                localizado no 1º arrondissement. Para conferir as atrações de cada região, veja o post sobre os pontos
+                turísticos de Paris.</p>
+
+            <p class="apresentacao__conteudo__texto"><b>1º arrondissement - Louvre</b></p>
+            <p class="apresentacao__conteudo__texto">Esta é a localização mais central e privilegiada da cidade. Estar
+                próximo ao Louvre é como estar nos principais acontecimentos de Paris. É uma região segura, muito
+                movimentada e será fácil circular a pé por muitas atrações. Além disso, nos arredores do Louvre há boas
+                linhas de metrô, garantindo deslocamento rápido a diversos pontos da cidade.</p>
+            <p class="apresentacao__conteudo__texto">A grande desvantagem da região do Louvre são os valores
+                astronômicos de hospedagem. Impossível conseguir um hotel barato. Se o orçamento estiver com sobra, essa
+                região é espetacular.</p>
+            <p class="apresentacao__conteudo__texto">Principais atrações no 1º arrondissement: Louvre, Jardim de
+                Tuileries, Palais Royal, Rue Saint Honoré, Museu da Orangerie e Place Vendôme.</p>
+
+            <p class="apresentacao__conteudo__texto"><b>2º arrondissement - Bourse (Bolsa de Valores) e Rue
+                    Montorgueil</b></p>
+            <p class="apresentacao__conteudo__texto">Estranhamente, o 2º arrondissement é muito central, muito bem
+                localizado, porém pouco turístico. Apesar de estar localizado em meio a regiões muito movimentadas de
+                Paris, o 2º arrondissement em si não é tão disputado assim e as principais atrações da região ficam na
+                fronteira do bairro. A vantagem da região é a boa oferta de lojas e restaurantes, com uma pitada de área
+                gourmet, especialmente nos arredores da Rue Montorgueil.</p>
+            <p class="apresentacao__conteudo__texto">Principais atrações no 2º arrondissement: Rue Montorgueil (e
+                arredores) e as passarelas cobertas de compras, entre elas a Passage Jouffroy e a Passagem des
+                Panoramas.</p>
+
+            <p class="apresentacao__conteudo__texto"><b>3º e 4º arrondissements - Marais e arredores</b></p>
+            <p class="apresentacao__conteudo__texto">A região conhecida como Marais é uma das melhores para hospedagem
+                em Paris. O Marais engloba parte do 3º e 4º arrondissements, uma área repleta de atrações, museus,
+                lojas, restaurantes, ruas charmosas, parques e um clima bem parisiense. Uma excelente pedida para estar
+                muito bem localizado, com acesso a diversas linhas de metrô, próximo a pontos turísticos importantes,
+                coladinho ao Sena e em uma área relativamente tranquila. Se o seu orçamento permitir, hospede-se no
+                Marais. O custo dos hotéis pode ser um pouco alto, mas é uma localização que vale o preço a mais no
+                orçamento.</p>
+            <p class="apresentacao__conteudo__texto">Principais atrações no Marais e arredores: Catedral de Notre Dame,
+                Pompidou, Ile Saint-Louis, Ile de la Cité, Hotel de Ville, Rue des Rosiers, Quarteirão Judeu, Museu
+                Picasso, Museu Carnavalet e Place des Vosges.</p>
+
+            <p class="apresentacao__conteudo__texto"><b>5º arrondissement - Quatier Latin</b></p>
+            <p class="apresentacao__conteudo__texto">Bairro mais antigo de Paris, o Quartier Latin - na margem esquerda
+                do Sena (rive gauche) - é marcado pela presença do Panteão e da Universidade Sorbonne. Devido à intensa
+                vida universitária, é um bairro com ares jovens, apesar de muito tradicional. Você encontrará no
+                Quartier Latin boas lojas, muitas livrarias, restaurantes, vida noturna animada e ainda um parque
+                delicioso. Um pacotinho bem completo, fazendo do Quartier Latin uma boa pedida para hospedagem em Paris.
+            </p>
+            <p class="apresentacao__conteudo__texto">Algumas das principais atrações do Quatier Latin são: Panteão,
+                Sorbonne, Jardim das Plantas de Paris, Igreja de Saint-Étienne-du-Mont, Museu de Cluny e Livraria
+                Shakespeare and Company.</p>
+
+            <p class="apresentacao__conteudo__texto"><b>6º arrondissement - Saint German des Près</b></p>
+            <p class="apresentacao__conteudo__texto">A região de Saint German des Près - formada pelo 6º arrondissement
+                e localizada na margem esquerda do Sena (rive gauche) - está entre as melhores áreas para hospedagem em
+                Paris, tanto por ser um bairro muito agradável quanto pela boa localização. Você estará no meio dos
+                principais atrativos de Paris, mas não necessariamente muito próximo a eles. Isso garante um
+                deslocamento rápido de metrô e também a pé para diversas atrações, contando muito para um turista.</p>
+            <p class="apresentacao__conteudo__texto">Além disso, Saint German dés Prés é bastante boêmia, com bares,
+                restaurantes e uma vida noturna muito animada. Ótima pedida para quem deseja sair à noite sem grandes
+                deslocamentos. Com o vizinho Quatier Latin, essa região está entre as nossas favoritas em Paris. Entre
+                as principais atrações de Saint German des Près estão: o Jardim de Luxemburgo, Igreja de Saint-Sulpice,
+                Abadia de Saint-Germain-des-Prés, Museu Delacroix e Café de Flore.</p>
+
+            <p class="apresentacao__conteudo__texto"><b>7º arrondissement - Da Torre Eiffel ao Museu d’Orsay</b></p>
+            <p class="apresentacao__conteudo__texto">O 7º arrondissement é bem grande e engloba desde o Museu d’Orsay
+                até a Torre Eiffel. É uma das regiões mais turísticas e bonitas de Paris, mas há diversos cantinhos mais
+                residenciais, com ruas elegantes e boas hospedagens. A pedida ideal para quem sonha ficar pertinho de
+                uma das atrações mais visitadas do mundo, mas também deseja um bairro tranquilo para relaxar.</p>
+            <p class="apresentacao__conteudo__texto">Apesar de ser uma ótima opção de hospedagem em Paris, o 7º
+                arrondissement apresenta diversas facetas, exigindo atenção. Basta dizer que a distância entre a Torre
+                Eiffel e o d’Orsay é de 2,5 km para você entender que estar perto de um significa estar distante do
+                outro. Na dúvida, fique perto do Museu Rodin, assim você estará bem no centro do 7º arrondissement. Se o
+                seu sonho é uma bela vista para a Torre Eiffel, vale conferir também os hotéis no 15º e 16º
+                arrondissements.</p>
+            <p class="apresentacao__conteudo__texto">Principais atrações do 7º arrondissement: Torre Eiffel, Champ de
+                Mars, École Militaire, Museu d’Orsay, Museu do Quai Branly, Museu de l’Armée, Hotel des Invalides, Museu
+                Rodin, Rue Cler e Avenue Rapp.</p>
+
+            <p class="apresentacao__conteudo__texto"><b>8º arrondissement - Arco do Triunfo e Avenida Champs Élysées</b>
+            </p>
+            <p class="apresentacao__conteudo__texto">A região entre o Arco do Triunfo a Avenida Champs Élysées é uma das
+                mais elegantes e refinadas de Paris. Tão elegante que o encontro da Avenida Georges V, Rua François 1er
+                e Avenida Montaigne ganha o nome de “Triângulo de Ouro”. No 8º arrondissement, os arredores da Champs
+                Élysées são a melhor localização para hospedagem, já que o restante do bairro não oferece atrações
+                turísticas. </p>
+            <p class="apresentacao__conteudo__texto">Essa é a localidade ideal para quem busca luxo, compras e um ar
+                très chic em Paris. Tudo isso, claro, tem um preço. É nesta região que estão alguns dos mais caros e
+                luxuoso hotéis da cidade, assim como lojas e restaurantes para quem tem orçamento ilimitado.</p>
+            <p class="apresentacao__conteudo__texto">Principais atrações do 8º arrondissement - Arco do Triunfo, Avenida
+                Champs Élysées, Petit Palais, Grand Palais, La Galerie Dior, Hotel de la Marine e Praça da Concordia.
+            </p>
+
+            <p class="apresentacao__conteudo__texto"><b>9º arrondissement - Ópera Garnier e Galerias Laffayet</b></p>
+            <p class="apresentacao__conteudo__texto">A região da Ópera Garnier e das Galerias Laffayet é uma boa pedida
+                para quem quer economizar e, ainda assim, ficar bem localizado. Apesar de não estar entre os bairros
+                mais bonitos e tranquilos, o 9º arrondissement é garantia de boas linhas de metrô e muita oferta de
+                comércios, lojas de departamento gigantescas e restaurantes com preços mais acessíveis. Excelente para
+                quem está com orçamento limitado, mas ainda assim que investir em compras. </p>
+            <p class="apresentacao__conteudo__texto">Caso opte pelo 9º arrondissement, dê preferência à região sul,
+                próxima ao metrô estação Ópera, que conta com 3 linhas e ainda o RER A. Na borda norte do bairro, você
+                estará nos arredores de Pigalle, uma região muito boêmia e com vida noturna agitada (cheia de
+                inferninhos e sexy shops), nem sempre interessante para quem busca um lugar mais tranquilo. Vale evitar
+                também os arredores da Gare Paris Saint-Lazare.</p>
+            <p class="apresentacao__conteudo__texto">Principais atrações do 9º arrondissement: Ópera Garnier, Boulevard
+                Haussmann (rua de compras), Galerias Lafayette Haussmann e Printemps Haussmann.</p>
+
+            <p class="apresentacao__conteudo__texto"><b>10º e 11º arrondissements - Canal Saint-Martin, Bastille e
+                    República</b></p>
+            <p class="apresentacao__conteudo__texto">A região formada pelo 10º e 11º arrondissements segue ao longo do
+                Canal Saint-Martin. É uma área animada, com muita oferta de restaurantes, hotéis a preços mais camaradas
+                e boas estações de metrô. No verão, o Canal Saint Martin costuma ser o epicentro do agito dos jovens
+                parisienses. Em outras estações, o ritmo é bem mais tranquilo, já que a região oferece poucas atrações
+                turísticas. Tanto o 10º quanto 11º ème têm vida noturna animada, especialmente perto da Praça da
+                Bastilha e Praça da República.</p>
+            <p class="apresentacao__conteudo__texto">A vantagem da região é estar longe o suficiente para encontrar
+                hotéis mais baratos e perto o suficiente para não perder tempo demais em deslocamento. Vale dizer que o
+                preço é mais amigável próximo à Bastilha e República. Já às margens do Canal Saint-Martin, os valores
+                serão mais altos.</p>
+            <p class="apresentacao__conteudo__texto">Tanto a estação Bastille quanto a République têm ótima oferta de
+                linhas de metrô, garantindo facilidade de deslocamento para os principais atrativos de Paris. Na
+                Bastille, são 3 linhas e na République, 5 linhas de metrô. Uma mão na roda para se locomover na cidade.
+                Ao escolher um hotel na área, dê preferência a ficar próximo a essas duas regiões. </p>
+            <p class="apresentacao__conteudo__texto">Apesar da Gare de l’Est e Gare du Nord também serem muito bem
+                servidas de linhas e terem grande oferta de hotéis a preços acessíveis, a região não é tão agradável.
+                Vale evitar a área, mesmo com preço mais baixo. A exceção é para quem precisa pegar o trem bem cedo.
+                Outra área que vale a pena, mas que preferencialmente deve ser evitada, é a Praça da Nação, que apesar
+                de bons preços e boas estações de metrô, já está distante demais dos atrativos mais famosos de Paris.
+            </p>
+            <p class="apresentacao__conteudo__texto">Principais atrações do 10º arrondissement: Canal Saint-Martin, Gare
+                du Nord, Gare de l’Est, Praça da Bastilha, Praça da República, Praça da Nação e L'Atelier des Lumières.
+            </p>
+
+            <p class="apresentacao__conteudo__texto"><b>14º arrondissement - Montparnasse</b></p>
+            <p class="apresentacao__conteudo__texto">No 14º arrondissement vale a pena a hospedagem na borda norte, que
+                faz fronteira com o 6º ème, o Jardim de Luxemburgo e a Torre de Montparnasse. Apesar de ser um pouco
+                distante, a economia com o hotel compensará o tempo de deslocamento. Na região você encontrará boa
+                oferta de restaurantes, lojas e preços mais camaradas. Dê preferencia aos hotéis nos arredores da
+                estação de Montparnasse, que oferece 4 linhas de metrô (4, 6, 12 e 13) e também trens.</p>
+            <p class="apresentacao__conteudo__texto">Principal atração do 14º arrondissement: Torre de Montparnasse.</p>
+
+            <p class="apresentacao__conteudo__texto"><b>15º arrondissement - Torre Eiffel até a Torre de
+                    Montparnasse</b></p>
+            <p class="apresentacao__conteudo__texto">O 15º arrondissement é um bairro enorme e vai desde a Torre de
+                Montparnasse até os arredores da Torre Eiffel. É uma distância de 3,2 km somente em uma das bordas do
+                bairro. Sabendo disso, fique atento na hora de escolher a região para o seu hotel no 15º ème.</p>
+            <p class="apresentacao__conteudo__texto">Se o seu desejo é ficar próximo à Torre Eiffel, o 15º ème é uma
+                excelente pedida. Você contará com alguns hotéis que oferecem vista para a torre e outros localizados à
+                beira do Sena. E nem será preciso ficar colado à Torre Eiffel para isso.</p>
+            <p class="apresentacao__conteudo__texto">Você poderá, por exemplo, optar pela hospedagem próxima à estação
+                La Motte - Picquet Grenelle, que oferece três boas linhas do metrô (6, 8 e 10) e dá acesso a pé à Torre
+                Eiffel em apenas 15 minutos de caminhada. Também próximo à Torre Eiffel e com boa oferta de lojas e
+                restaurantes, os arredores do shopping Beaugrenelle é uma boa pedida à beira do Sena, com a desvantagem
+                de ter apenas uma linha de metrô.</p>
+            <p class="apresentacao__conteudo__texto">Ainda no 15º ème, vale conferir os arredores da Torre de
+                Montparnasse, que segue a mesma lógica do 14º ème. Na região, priorize os hotéis próximos à estação de
+                Montparnasse, que oferece 4 linhas de metrô (4, 6, 12 e 13) e também trens.</p>
+            <p class="apresentacao__conteudo__texto">Principais atrações do 15º arrondissement: Torre Eiffel, Rio Sena,
+                Pont de Bir Hakeim e Torre de Montparnasse.</p>
+
+            <p class="apresentacao__conteudo__texto"><b>16º arrondissement - Trocadéro</b></p>
+            <p class="apresentacao__conteudo__texto">O 16º arrondissement é mais um dos casos de bairros enormes com
+                apenas uma pequena região interessante para hospedagem. Mas é uma região muito interessante para quem
+                deseja o lado mais turístico de Paris! No 16º ème está localizado o Jardim do Trocadero, uma esplanada
+                com parque, chafariz e museus que rendem algumas das mais clássicas e lindas vistas para a Torre Eiffel.
+                Se a Torre Eiffel é o seu sonho, o Trocadero é para você. A desvantagem da região é ser mal servida de
+                metrôs. Neste caso, dê preferência aos arredores da estação Trocadero (linhas 6 e 9). </p>
+            <p class="apresentacao__conteudo__texto">Vale dizer que o 16º arrondissement vai até o Arco do Triunfo
+                (fronteira com o 8º ème), que sempre rende uma boa hospedagem. Neste caso, prefira hospedar-se próximo à
+                estação Charles de Gaulle – Étoile, localizada bem no Arco do Triunfo e com as linhas 1, 2 e 6 do metrô,
+                além do RER A.</p>
+            <p class="apresentacao__conteudo__texto">Principais atrações do 16º arrondissement - Jardim do Trocadéro,
+                Palais de Tokyo, Museu de Arte Moderna da Cidade de Paris, Museu Galliera, Arco do Triunfo, Fundação
+                Louis Vuitton, Jardim d’Acclimatation e o Parque Bois de Boulogne.</p>
+
+            <p class="apresentacao__conteudo__texto"><b>18º arrondissement - Montmartre e Pigalle</b></p>
+            <p class="apresentacao__conteudo__texto">Apesar da fama, das atrações populares e da grande oferta de
+                hospedagens a preços acessíveis, o 18º arrondissement - região conhecida como Montmartre e Pigalle - não
+                é uma boa pedida para hospedagem em Paris. O bairro é muito distante, mal servido de metrôs e a chance
+                de você ficar longe de uma estação e ter que subir vários lances de escadas ou ladeiras é grande.
+                Sabendo disso, hospede-se em Montmartre apenas se for o seu sonho parisiense de Amélie Poulin ou se o
+                orçamento estiver realmente apertado. </p>
+            <p class="apresentacao__conteudo__texto">Caso se hospede em Montmartre ou Pigalle, fique atento para
+                escolher uma localidade bem próxima ao metrô (o que não necessariamente evita as escadarias) e prefira
+                estar distante da Boulevard de Clichy, avenida onde estão os sex shops e inferninhos de Pigalle.</p>
+            <p class="apresentacao__conteudo__texto">Principais atrações do 18º arrondissement: Sacré-Coeur, Place du
+                Tertre, Rue Saint-Rustique, Rue de l’Abreuvoir, Musée de Montmartre e Moulin Rouge.</p>
+
+            <p class="apresentacao__conteudo__texto"><b>La Défense</b></p>
+            <p class="apresentacao__conteudo__texto">O bairro de La Défense é a única exceção que consideramos valer a
+                pena para hospedagem fora do circulo dos 20 arrondissements. Com característica bem modernas e
+                considerado o bairro financeiro e empresarial de Paris, La Défense pode agradar em cheio a quem busca
+                hospedagens mais novas, com boa qualidade e preços mais acessíveis que os do centro de Paris. </p>
+            <p class="apresentacao__conteudo__texto">A desvantagem é a distância de La Défense para as principais
+                atrações e pouca oferta de linhas (a região é servida pela linha 1 do metrô e pelo RER A). Serão 20
+                minutos de metrô até o Louvre e meia hora até a Torre Eiffel, por exemplo. </p>
+            <p class="apresentacao__conteudo__texto">Principais atrações de La Défense: Grande Arco de La Défense e
+                shopping Les Quatre Temps.</p>
+
+            <p class="apresentacao__conteudo__texto"><b>Aeroportos de Paris - Charles de Gaule e Orly</b></p>
+            <p class="apresentacao__conteudo__texto">Os aeroportos de Paris são muito distantes do centro. Só vale a
+                pena hospedar-se próximo aos aeroportos de Paris se você precisar pegar um voo muito cedo e não quer
+                arriscar atrasar para o voo. Do contrário, não são regiões recomendadas para o dia a dia do turista.</p>
+
+            <p class="apresentacao__conteudo__texto"><b>Hotéis com vista para a Torre Eiffel</b></p>
+            <p class="apresentacao__conteudo__texto">Um quarto com vista para a Torre Eiffel é o desejo de muitos
+                turistas que visitam Paris. Que tal então investir nesse pequeno luxo durante a viagem? Estamos falando
+                em luxo porque o preço de um quarto com vista para a Torre Eiffel dificilmente será acessível. Ao
+                pesquisar um hotel com vista, fique atento para fazer a reserva do quarto certo (nem todos oferecem a
+                mesma vista). Se o preço estiver muito além do seu sonho, escolha um hotel com terraço, assim você
+                poderá curtir a Torre Eiffel por mais tempo.</p>
+
+            <h2 class="apresentacao__conteudo__subtitulo">Regiões onde não se hospedar em Paris</h2>
+            <p class="apresentacao__conteudo__texto">As regiões e bairros que listamos acima são as melhores opções de
+                hospedagem em Paris. Caso você opte por ficar em alguma região fora das listadas acima, fique atento a
+                algumas questões importantes:</p>
+            <ul class="apresentacao__conteudo__lista">
+                <li>Todos os arrondissements que não citamos acima não são interessantes para hospedagem por serem muito
+                    distantes dos principais pontos turísticos, não oferecerem boas linhas de metrô e nem atrações
+                    próximas;</li>
+                <li>Não se hospede fora dos 20 arrondissements. A única exceção à regra é a região de La Defense, que
+                    pode render uma hospedagem de boa qualidade, com ótimo preço e linha de metrô e RER eficientes;</li>
+                <li>Evite todas as regiões próximas aos portões - ou portes - de Paris, como são chamadas as entradas da
+                    cidade. Porte de Clichy, Porte de La Gare, Porte de La Villette, Porte de Montmartre, Porte de
+                    Vicennes e por aí vai… Elas marcam os limites de Paris e são quase sempre localizações ruins;</li>
+                <li>Se possível, prefira um hotel próximo a uma estação do metrô com mais de uma linha, assim você terá
+                    mais facilidade de deslocamento;</li>
+                <li>As regiões de gares - onde estão as estações de trem - são sempre mais confusas, conturbadas e com
+                    mais pessoas. Se possível, evite os arredores das gares.</li>
+            </ul>
+
+            <div class="apresentacao__destaque">
+                <h2 class="apresentacao__destaque__titulo">Dicas na hora de escolher um hotel em Paris</h2>
+                <p class="apresentacao__destaque__texto"><b>Preços dos hotéis em Paris</b></p>
+                <p class="apresentacao__destaque__texto">Paris é uma cidade cara em todos os aspectos. Comida, atrações
+                    e, claro, hotéis têm valores bem elevados. Encontrar um hotel com preços razoáveis em Paris não é
+                    tarefa fácil, mas é possível. Para isso, é preciso escolher o hotel com antecedência e,
+                    preferencialmente, viajar fora da alta temporada.</p>
+                <p class="apresentacao__destaque__texto">Os meses mais frios - entre novembro e abril - costumam ter
+                    tarifas mais amigáveis. Já os meses de verão - julho e agosto - são altíssimas temporadas e com isso
+                    têm as tarifas mais caras. Primavera e outono ficam no meio do caminho, com tarifas que não são
+                    promocionais, mas também não atingem os valores máximos. Se você está na dúvida sobre qual a melhor
+                    época para a viagem, confira nossas dicas de quando ir a Paris.</p>
+                <p class="apresentacao__destaque__texto">Além da alta e baixa temporada, outro fator que interfere muito
+                    no preço do hotel em Paris é a localização. Quando mais perto do Louvre (1º arrondissement), mais
+                    caro será o hotel. Quando mais longe (e mais alto o número do arrondissement), maior a chance de
+                    encontrar um hotel com melhores preços. No geral, esta é a regra. Explicaremos mais adiante os
+                    detalhes de cada região.</p>
+                <p class="apresentacao__destaque__texto">Um hotel razoável - com avaliação mediana e boa localização -
+                    dificilmente custará menos de 120 € a diária para o casal. E estamos falando em 120 € se você
+                    pesquisar muito, viajar fora da alta temporada e reservar com bastante antecedência. Na prática,
+                    você deve considerar a tarifa de 150 € para uma diária em quarto duplo quando estiver fazendo o
+                    orçamento da viagem, valor médio de um hotel simples, padrão Ibis, com boa avaliação e localização
+                    central.</p>
+                <p class="apresentacao__destaque__texto">Quem quiser um hotel de padrão superior, um pouco mais de
+                    conforto, café da manhã e boa localização, o mínimo a ser desembolsado por uma diária será 200 €. Se
+                    o quarto incluir uma bela vista, o preço da diária será superior a 300 €.</p>
+                <p class="apresentacao__destaque__texto">Para quem está focado em economizar e quer hospedagens
+                    realmente mais baratas, a pedida será escolher um hostel ou uma região mais afastada do centro da
+                    cidade, onde as chances são maiores de conseguir bons preços. Uma diária em quarto compartilhado em
+                    um hostel de Paris está, em média, entre 35 € e 60 € por pessoa. Já um quarto duplo em hotéis mais
+                    afastados, com a avaliação média, pode ser encontrada com valores entre 60 € e 100 €. Neste caso,
+                    sempre considere a distância e o tempo de deslocamento até as atrações principais.</p>
+
+                <p class="apresentacao__destaque__texto"><b>Hotel com ou sem café da manhã em Paris</b></p>
+                <p class="apresentacao__destaque__texto">Nem sempre os hotéis em Paris oferecem café da manhã. E isto
+                    não é necessariamente um problema. Paris é uma cidade repleta de padarias, mercados e cafés, que
+                    sempre rendem um passeio. Na hora de escolher o hotel, vale fazer um cálculo básico para saber se
+                    vale pagar ou não pelo café da manhã, que muitas vezes é cobrado à parte na diária.</p>
+                <p class="apresentacao__destaque__texto">Considere que um café simples - chamado de petit déjeuner -
+                    custa, em média, 10 € por pessoa. O café inclui uma bebida quente, um croissant ou pão, geleia,
+                    manteiga e um suco de laranja. Este valor é para sentar-se à mesa em um café e curtir o passeio. Já
+                    nos mercados e padarias (boulangeries), você poderá ser bem feliz com um sanduíche grande por 5 € e
+                    um café por 2 €. Sabendo estes valores, faça os cálculo e veja se vale a pena fechar a diária com ou
+                    sem café da manhã.</p>
+
+                <p class="apresentacao__destaque__texto"><b>Hotel com ou sem frigobar em Paris</b></p>
+                <p class="apresentacao__destaque__texto">Não é comum ter frigobar nos quartos dos hotéis em Paris,
+                    especialmente os hotéis com tarifas mais econômicas. Isso pode não ser problema para muita gente. No
+                    entanto, para quem está em busca de economizar e fazer algumas compras no mercado para café da manhã
+                    e lanche, não ter um frigobar é uma questão que deve ser considerada. Caso não tenha frigobar, você
+                    não poderá comprar produtos que precisam de refrigeração e, certamente, terá que limitar a comida a
+                    produtos que não estraguem fora da geladeira. Fique atento na hora de fazer a reserva para não ter
+                    surpresas depois.</p>
+
+                <p class="apresentacao__destaque__texto"><b>Avaliação dos hotéis em Paris</b></p>
+                <p class="apresentacao__destaque__texto">Paris é uma cidade de edifícios antigos, com muitos hotéis mal
+                    preservados. Infelizmente, hotéis ruins são uma realidade e uma constante na cidade. É até raro
+                    encontrar um hotel com valores acessíveis e notas acima de 8 no Booking. Na hora de escolher o
+                    hotel, considere os comentário e avaliações de antigos hóspedes e evite hotéis com notas abaixo de
+                    7. Pode acreditar: para os padrões parisienses, um hotel com nota acima de 7 já é considerado ok
+                    para a hospedagem.</p>
+
+                <p class="apresentacao__destaque__texto"><b>Hotel perto do metrô em Paris</b></p>
+                <p class="apresentacao__destaque__texto">É fundamental um hotel que esteja próximo a uma linha do metrô.
+                    E quanto mais bem servida de linhas a região do hotel, melhor. Se você está em dúvida entre um hotel
+                    que tem apenas uma linha de metrô ou outro que tem 5 linhas, não tenha dúvidas e escolha o hotel
+                    mais próximo das 5 linhas. Provavelmente será mais eficiente para os deslocamentos na sua viagem.
+                </p>
+                <p class="apresentacao__destaque__texto">Um hotel na região central de Paris (os 20 arrondissements)
+                    dificilmente não terá uma estação de metrô nas proximidades. O metrô de Paris é extremamente
+                    eficiente e cobre toda a região central. No máximo, você terá que andar 10 minutos até o metrô mais
+                    próximo do seu hotel, independente de onde ele esteja. A questão é se a sua linha de metrô é
+                    eficiente, rápida e com acesso às principais atrações. Veja mais dicas sobre transporte em Paris.
+                </p>
+            </div>
+
+            <h2 class="apresentacao__conteudo__subtitulo"><a name="quando">Quando ir a Paris - Melhor época</a></h2>
+            <p class="apresentacao__conteudo__texto">Escolher a melhor época para ir a Paris, de acordo com o seu
+                desejo, fará muita diferença na experiência durante a viagem pela capital da França. E como o clima em
+                Paris muda muito ao longo do ano, é bom ficar atento ao calendário na hora de comprar a passagem aérea e
+                organizar o seu roteiro. Paris é um sonho em qualquer estação, mas alguns períodos serão mais
+                tranquilos, terão clima mais ameno e os preços estarão menos salgados para a viagem. Confira cada
+                detalhe para definir quando ir a Paris.</p>
+
+            <h2 class="apresentacao__conteudo__subtitulo">Melhor época para ir a Paris</h2>
+            <p class="apresentacao__conteudo__texto">Maio e junho são os melhores meses para visitar Paris. Parece muito
+                específico, mas a verdade é que os meses de maio e junho, período da primavera no hemisfério norte, têm
+                clima muito agradável, a cidade não estará tão cheia, os preços de hospedagem e passagem aérea ainda
+                serão acessíveis e você terá lindos dias de céu azul (com pouquíssimas chuvas). É, com certeza, o melhor
+                momento para visitar Paris.</p>
+            <p class="apresentacao__conteudo__texto">Além dos meses de maio e junho, o período entre setembro e outubro
+                - outono no hemisfério norte - também costuma agradar aos turistas. Esta é a segunda melhor época para
+                conhecer a capital francesa. Paris já não terá o grande movimento do verão, os preços serão mais
+                acessíveis, o clima mais ameno e tudo estará mais tranquilo. Sem contar que as cores do outono deixam
+                tudo ainda mais charmoso.</p>
+            <p class="apresentacao__conteudo__texto">Podemos garantir que a primavera e o outubro não decepcionam
+                jamais. Mas é claro que alguns outros fatores podem fazer com que você considere outros períodos do ano
+                mais interessantes para a viagem, por isso é importante entender o seu desejo pessoal antes de organizar
+                o roteiro.</p>
+
+            <h2 class="apresentacao__conteudo__subtitulo">Clima em Paris</h2>
+            <p class="apresentacao__conteudo__texto">Paris não é uma cidade de temperaturas tão extremas quanto outros
+                destinos da Europa. Na capital francesa não faz um frio absurdo no inverno (apesar do vento incomodar
+                muito) e nem um calor de matar no verão (ao menos para os padrões brasileiros). Com isso, você pode
+                viajar em qualquer época do ano para Paris. As chuvas também não costumam atrapalhar a vida do turista.
+                Há incidência de chuvas durante todo o ano, mas elas costumam ser passageiras e raramente duram um dia
+                inteiro, a ponto de estragar o passeio.</p>
+            <p class="apresentacao__conteudo__texto">Ainda que o clima em Paris ajude o viajante, sabemos que alguns
+                fatores podem atrapalhar no dia a dia. Por isso, confira atentamente o clima em Paris mês a mês para
+                escolher o que melhor combina com você.</p>
+
+            <p class="apresentacao__conteudo__texto"><b>Paris na primavera: abril, maio e junho</b></p>
+            <p class="apresentacao__conteudo__texto">O mês de abril, apesar de já ser primavera, ainda é marcado pelo
+                friozinho do inverno. A boa notícia é que o clima já começa a melhorar e algumas atrações reabrem, entre
+                elas os Jardins de Giverny e os parques públicos que voltam a permitir piqueniques.</p>
+            <p class="apresentacao__conteudo__texto">Maio é o mês perfeito para ir a Paris. E não estamos exagerando.
+                Paris estará com clima delicioso, apesar de oscilar entre frio e calor. A cidade estará repleta de
+                eventos, piqueniques e bares ao ar-livre; as filas dos museus não estarão gigantescas; os preços de
+                hospedagem e passagem aérea não serão tão altos; e as flores já terão tomado conta da cidade. Uma
+                delícia para curtir muito até tarde, já que a noite só chega depois de 21h. </p>
+            <p class="apresentacao__conteudo__texto">Quanto mais perto de junho, mais alta ficará a temperatura, maior
+                será a quantidade de turistas e mais caras serão as hospedagens, ainda assim, junho costuma ser um mês
+                bem agradável para ir à cidade.</p>
+            <p class="apresentacao__conteudo__texto">Apesar de ser a temporada perfeita para ir a Paris, a primavera
+                reserva uma surpresa nem sempre agradável: a variação climática. O tempo ainda estará instável e, em uma
+                mesma semana, você terá dias com jeito de inverno e outros com a cara de verão. O mês de maio também é o
+                mais chuvoso em Paris, porém são chuvas rápidas e finas, que não costumam atrapalhar a viagem. E como
+                chove em Paris durante todo o ano, não se preocupe com isso.</p>
+            <p class="apresentacao__conteudo__texto">Na primavera em Paris, fique atento ao fato de que a mala deve
+                prever todas as temperaturas e condições climáticas. Durante o dia de passeio, o ideal é estar preparado
+                para climas diferentes. Mesmo que o sol esteja brilhando, não esqueça de levar um casaquinho. E se você
+                sair do hotel com chuva, lembre-se que o pôr do sol pode ser sensacional.</p>
+            <p class="apresentacao__conteudo__texto">Vale dizer que, oficialmente, a primavera no calendário do
+                hemisfério norte começa em 20 de março e termina em 21 de junho. Já na prática, os meses de março e
+                abril em Paris ainda seguem o ritmo e clima do inverno. Somente a partir de maio Paris toma ares de
+                primavera.</p>
+
+            <p class="apresentacao__conteudo__texto"><b>Paris no verão: julho e agosto</b></p>
+            <p class="apresentacao__conteudo__texto">A alta temporada em Paris é marcada pelos meses de verão,
+                especialmente o final de junho, julho e agosto. É neste período que acontecem as férias dos europeus, as
+                temperaturas estão mais altas e os eventos ao ar-livre pipocam por toda a cidade. Paris ganha até praia
+                à beira do Sena no verão! Se você busca uma cidade extremamente animada e no auge do agito, o verão é
+                para você.</p>
+            <p class="apresentacao__conteudo__texto">Os dias de verão em Paris são longos e rendem passeios com luz do
+                sol até 22h, o que é ótimo para aproveitar cada minuto na cidade. Leve isso em consideração, já que você
+                poderá ver mais atrações com a luz do dia e o pôr do sol dura muito mais tempo, o que é sempre
+                maravilhoso em Paris.</p>
+            <p class="apresentacao__conteudo__texto">No verão, considere que você terá dias bem quentes. Uma mala de
+                roupas leves é o ideal para a viagem. Preveja apenas alguns poucos lugares onde o ar-condicionado pode
+                dar um friozinho leve e garanta um casaquinho (que nunca é demais). É raro que a cidade tenha
+                temperaturas altíssimas, mas ondas de calor na Europa estão cada vez mais comuns, por isso é importante
+                estar preparado também para extremo calor.</p>
+            <p class="apresentacao__conteudo__texto">A má notícia sobre o verão em Paris são os preços muito elevados, o
+                que fará com que você gaste bem mais na passagem aérea e hospedagem. Os meses de julho e agosto também
+                são mais procurados por turistas, o que atinge diretamente as atrações mais disputadas, que costumam ter
+                grandes filas ou mesmo ingressos esgotados. Enquanto os parisienses fogem da cidade durante as férias de
+                verão, os turistas correm para lá. Caso vá a Paris nos meses de julho e agosto, garanta os ingressos
+                antecipados ou compre um Paris Museum Pass para não ficar na fila.</p>
+            <p class="apresentacao__conteudo__texto">Outro fator negativo que deve ser levado em consideração é o número
+                de restaurantes fechados no mês de agosto, já que muitos dão férias coletivas aos funcionários. Nada que
+                atrapalhe a viagem, mas você pode dar de cara na porta de um restaurante que sonhava conhecer. O mesmo
+                acontece com as óperas e casas de espetáculo, que não costumam ter apresentações durante o verão. Por
+                outro lado, há uma grande quantidade de eventos e festivais ao ar-livre.</p>
+            <p class="apresentacao__conteudo__texto">Oficialmente, o verão no hemisfério norte começa em 21 de junho e
+                termina no dia 23 de setembro. No entanto, na prática, o verão parisiense acontece nos meses de julho e
+                agosto. Setembro já tem mais cara de outono e, na prática, não é considerado um mês de verão.</p>
+
+            <p class="apresentacao__conteudo__texto"><b>Paris no outono: setembro e outubro</b></p>
+            <p class="apresentacao__conteudo__texto">O outono é a segunda melhor época para visitar Paris e perde apenas
+                para os meses de primavera. No outono, especialmente os meses de setembro e outubro, Paris estará com
+                clima agradável, o grande volume de turistas já terá ido embora e a cidade retomará o ritmo do dia a dia
+                parisiense. Os preços já não estarão tão caros, os hotéis e atrações serão menos disputados e a paisagem
+                dos parques estará linda em tons de ocre. </p>
+            <p class="apresentacao__conteudo__texto">O outono em Paris só não é perfeito porque logo depois chega o
+                inverno, o que dá à cidade um certo tom melancólico, de expectava de dias mais frios e com pouco sol.
+                Diferente da primavera, que tem a perspectiva dos lindos dias de verão e diversas atrações reabrem, o
+                outono é a temporada para começar a se recolher e muitos atrativos fecham as portas. Até mesmo os
+                parques passam a não permitir piqueniques depois de meados de outubro. Quanto mais tempo passar, maiores
+                as chances de pegar dias frios e com jeito de inverno. Por isso, ao viajar no outono para Paris,
+                lembre-se de fazer uma mala que atenda a todas as estações.</p>
+            <p class="apresentacao__conteudo__texto">O outono no hemisfério norte começa no dia 23 de setembro e vai até
+                22 de dezembro. Na prática, o outono parisiense acontece nos meses de setembro até meado de outubro. A
+                partir daí, a cidade já ganha tons de inverno.</p>
+
+            <p class="apresentacao__conteudo__texto"><b>Paris no inverno - novembro, dezembro, janeiro, fevereiro e
+                    março</b></p>
+            <p class="apresentacao__conteudo__texto">O inverno em Paris é bem longo e são muitos meses de frio e vento
+                que podem atrapalhar um pouco a vida dos turistas. Apesar de muita gente ter o sonho de vestir elegantes
+                roupas de inverno e passear pela Champs Élysées, andar nas ruas de Paris pode ser um pouco desagradável
+                nos meses de inverno. Por isso, se possível, evite viajar a Paris no período de novembro a abril.</p>
+            <p class="apresentacao__conteudo__texto">Os meses de inverno marcam a baixíssima temporada na capital
+                francesa, com exceção para o período das festas de Natal e Ano Novo, que sempre levam mais turistas à
+                cidade. O lado positivo dos meses de inverno é o valor mais baixo de passagens e hospedagens, filas bem
+                menores nas atrações e uma culinária toda voltada a esquentar o corpo, o que rende ótimas experiências
+                gastronômicas. Quanto mais perto do final do ano, maiores as chances de você encontrar mercados de
+                Natal, que são sempre lindos e garantem ótimos passeios.</p>
+            <p class="apresentacao__conteudo__texto">O lado negativo do inverno em Paris é o frio e o vento, que tomam
+                conta da cidade e podem atrapalhar o passeio ao ar-livre. Os dias são bem mais curtos e você terá menos
+                tempo para curtir a cidade com a luz do sol (que costuma aparecer pouco nestes meses). Algumas atrações
+                já estarão fechadas - como os Jardins de Giverny - e os parques não serão convidativos a relaxar. Mas se
+                você está preparado para tudo isso, o inverno pode ser uma boa pedida para economizar!</p>
+            <p class="apresentacao__conteudo__texto">Vale dizer que, oficialmente, o inverno no hemisfério norte vai de
+                21 de dezembro a 20 de março. Na prática, o clima invernal segue em Paris de novembro até meados de
+                abril. A cidade só engata mesmo na primavera no mês de maio, quando começa a esquentar e a capital
+                francesa ganha novas cores.</p>
+        </div>
+
+        <div class="apresentacao__fotos">
+            <figure>
+                <a href="#" class="miniatura" data-imagem-expandida="../assets/paris02.jpg">
+                    <img class="destino__figura__imagem" src="../assets/paris02.jpg" alt="Foto dos Marais">
+                    <figcaption class="destino__figura__legenda">Marais</figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="#" class="miniatura" data-imagem-expandida="../assets/paris03.jpg">
+                    <img class="destino__figura__imagem" src="../assets/paris03.jpg"
+                        alt="Foto da Sacré Coeur - Basílica do Sagrado Coração">
+                    <figcaption class="destino__figura__legenda">Sacré Coeur - Basílica do Sagrado Coração</figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="#" class="miniatura" data-imagem-expandida="../assets/paris04.jpg">
+                    <img class="destino__figura__imagem" src="../assets/paris04.jpg" alt="Foto do Arco do Triunfo">
+                    <figcaption class="destino__figura__legenda">Arco do Triunfo</figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="#" class="miniatura" data-imagem-expandida="../assets/paris05.jpg">
+                    <img class="destino__figura__imagem" src="../assets/paris05.jpg"
+                        alt="Foto do Mirante Panorâmico da Torre Montparnasse">
+                    <figcaption class="destino__figura__legenda">Mirante Panorâmico da Torre Montparnasse</figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="#" class="miniatura" data-imagem-expandida="../assets/paris06.jpg">
+                    <img class="destino__figura__imagem" src="../assets/paris06.jpg"
+                        alt="Foto da Catedral de Notre-Dame">
+                    <figcaption class="destino__figura__legenda">Catedral de Notre-Dame</figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="#" class="miniatura" data-imagem-expandida="../assets/paris07.jpg">
+                    <img class="destino__figura__imagem" src="../assets/paris07.jpg" alt="Foto do Museu do Louvre">
+                    <figcaption class="destino__figura__legenda">Museu do Louvre</figcaption>
+                </a>
+            </figure>
+        </div>
+        <!-- Modal da imagem expandida -->
+        <div class="modal fade" id="imagemModal" tabindex="-1" role="dialog" aria-labelledby="imagemModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img class="modal-imagem" src="" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape__divisoria"> </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.fadeout-link').click(function (e) {
+                e.preventDefault();
+
+                var url = $(this).attr('href');
+
+                $('body').addClass('fadeout');
+                setTimeout(function () {
+                    window.location.href = url;
+                }, 1000); // Tempo de espera para o fadeout (em milissegundos)
+            });
+        });
+
+        $(document).ready(function () {
+            $('.miniatura').click(function (e) {
+                e.preventDefault();
+                var imagemSrc = $(this).find('img').attr('src');
+                $('#imagemModal .modal-imagem').attr('src', imagemSrc);
+                $('#imagemModal').modal('show');
+            });
+        });
+    </script>
+</body>
+
+</html>

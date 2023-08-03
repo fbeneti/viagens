@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>FATEC SÃO CAETANO DO SUL - PROGRAMAÇÃO EM SCRIPT</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+    <link rel="stylesheet" type="text/css" href="../styles/jquery.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho__titulo"><a name="inicio">DESTINO PARA VIAGENS</a></h1>
+
+        <div class="cabecalho__menu">
+            <a class="cabecalho__menu__link fadeout-link" href="../index.html">Página Inicial</a>
+            <a class=cabecalho__menu__link href="#sobre">Sobre</a>
+            <a class=cabecalho__menu__link href="#hoteis">Hotéis</a>
+            <a class=cabecalho__menu__link href="#quando">Quando ir</a>
+            <a class=cabecalho__menu__link href="#fotos">Fotos</a>
+            <a class=cabecalho__menu__link href="contato.html">Contato</a>
+        </div>
+    </header>
+
+    <main class="apresentacao">
+        <div class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">BONITO - MATO GROSSO DO SUL</h1>
+            <p class="apresentacao__conteudo__texto">Bonito é uma cidade localizada no Mato Grosso do Sul, a apenas 300
+                quilômetros da capital do estado. Seu nome condiz perfeitamente com o que se encontra na pequena cidade,
+                que é como um refúgio ecológico, onde o dedo humano não passa de mero figurante. É um destino
+                inesquecível para os amantes da natureza, que lá encontram os mais variados cenários para encantar
+                olhos, mente e corpo. Costumam dizer que "Bonito é lindo" — a frase é um clichê, mas não poderia ser
+                mais verdadeira.</p>
+
+            <figure class="apresentacao__conteudo__imagem">
+                <img class="apresentacao__conteudo__imagem__foto" src="../assets/bonito01.jpg"
+                    alt="Foto do Buraco das Araras">
+                <figcaption class="apresentacao__conteudo__imagem__legenda">Buraco das Araras</figcaption>
+            </figure>
+
+            <h2 class="apresentacao__conteudo__subtitulo"><a name="sobre">Sobre Bonito</a></h2>
+            <p class="apresentacao__conteudo__texto">Aproveitar o contato íntimo com a natureza é o que Bonito reserva
+                aos visitantes. Mergulhar com peixes de diversas espécies, fazer trilhas, observar animais em seu
+                habitat natural, descer de rapel numa gruta, cavalgar, tomar banho de cachoeira e admirar paisagens
+                incríveis são algumas — apenas algumas — das coisas para fazer na cidade e seus arredores. É
+                impressionante a quantidade de atrativos em um espaço tão pequeno!</p>
+
+            <p class="apresentacao__conteudo__texto">Conhecido como o melhor destino ecoturístico do Brasil, Bonito não
+                será apenas mais uma das viagens na sua bagagem. Para muitos dos que conhecem o lugar, o momento se
+                torna um marco. Pequena, porém charmosa, a cidade oferece infraestrutura e organização de causar inveja
+                a diversas metrópoles. O dia de quem viaja ao paraíso natural é cheio de passeios e atividades,
+                geralmente seguidos por um lindo pôr-do-sol e descanso no fim de tarde.</p>
+
+            <h2 class="apresentacao__conteudo__subtitulo"><a name="hoteis">Hotéis em Bonito</a></h2>
+            <p class="apresentacao__conteudo__texto">Escolher o hotel em Bonito é uma tarefa relativamente simples, a
+                cidade não abriga uma quantidade enorme de acomodações e geralmente elas possuem um bom custo-benefício.
+                Para além dos hotéis, vale saber que existem também muitas pousadas em Bonito, e várias delas têm uma
+                ótima estrutura, inclusive com piscina, uma comodidade excelente para relaxar no fim de tarde, depois de
+                voltar cansado dos passeios. Entre os hotéis em Bonito que consideramos boas escolhas, estão o Zagaia
+                Resort, que tem uma superestrutura para pessoas de todas as idades, o Hotel Cabanas para quem busca
+                contato com a natureza e entre as pousadas de Bonito, vale ficar de olho na Pousada Águas de Bonito, que
+                tem uma localização central e um bom chá da tarde.</p>
+
+            <h2 class="apresentacao__conteudo__subtitulo"><a name="quando">Quando ir a Bonito - Melhor época</a></h2>
+            <p class="apresentacao__conteudo__texto">Bonito pode ser visitada o ano inteiro e possui duas estações bem
+                definidas, uma estação seca (inverno) e uma estação chuvosa (verão). Cada uma dessas estações tem
+                características próprias. No inverno, por exemplo, chove menos ou quase nada, e os rios ficam mais
+                cristalinos, porém, as águas mais geladinhas, enquanto no verão chove mais e elas são mais quentes.</p>
+        </div>
+
+        <div class="apresentacao__fotos">
+            <figure>
+                <a href="#" class="miniatura" data-imagem-expandida="../assets/bonito03.jpg">
+                    <img class="destino__figura__imagem" src="../assets/bonito03.jpg"
+                        alt="Foto de Passeio de Bote no Rio Formoso">
+                    <figcaption class="destino__figura__legenda">Passeio de Bote no Rio Formoso</figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="#" class="miniatura" data-imagem-expandida="../assets/bonito04.jpg">
+                    <img class="destino__figura__imagem" src="../assets/bonito04.jpg" alt="Foto do Rio Sucuri">
+                    <figcaption class="destino__figura__legenda">Rio Sucuri</figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="#" class="miniatura" data-imagem-expandida="../assets/bonito02.jpg">
+                    <img class="destino__figura__imagem" src="../assets/bonito02.jpg" alt="Foto da Lagoa Misteriosa">
+                    <figcaption class="destino__figura__legenda">Lagoa Misteriosa</figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="#" class="miniatura" data-imagem-expandida="../assets/bonito05.jpg">
+                    <img class="destino__figura__imagem" src="../assets/bonito05.jpg"
+                        alt="Foto da Cachoeira da Boca da Onça">
+                    <figcaption class="destino__figura__legenda">Cachoeira Boca da Onça</figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="#" class="miniatura" data-imagem-expandida="../assets/bonito06.jpg">
+                    <img class="destino__figura__imagem" src="../assets/bonito06.jpg" alt="Foto do Aquífero Guarani">
+                    <figcaption class="destino__figura__legenda">Aquífero Guaraní</figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="#" class="miniatura" data-imagem-expandida="../assets/bonito07.jpg">
+                    <img class="destino__figura__imagem" src="../assets/bonito07.jpg"
+                        alt="Foto de flutuação na Nascente Azul">
+                    <figcaption class="destino__figura__legenda">Flutuação na Nascente Azul</figcaption>
+                </a>
+            </figure>
+        </div>
+
+        <!-- Modal da imagem expandida -->
+        <div class="modal fade" id="imagemModal" tabindex="-1" role="dialog" aria-labelledby="imagemModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img class="modal-imagem" src="" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape__divisoria"> </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.fadeout-link').click(function (e) {
+                e.preventDefault();
+
+                var url = $(this).attr('href');
+
+                $('body').addClass('fadeout');
+                setTimeout(function () {
+                    window.location.href = url;
+                }, 1000); // Tempo de espera para o fadeout (em milissegundos)
+            });
+        });
+
+        $(document).ready(function () {
+            $('.miniatura').click(function (e) {
+                e.preventDefault();
+                var imagemSrc = $(this).find('img').attr('src');
+                $('#imagemModal .modal-imagem').attr('src', imagemSrc);
+                $('#imagemModal').modal('show');
+            });
+        });
+    </script>
+</body>
+
+</html>
